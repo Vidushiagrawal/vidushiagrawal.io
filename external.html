@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="external.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="colorBox" id="colorbox">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo soluta veritatis nihil nostrum in iste
+            praesentium saepe dolor obcaecati. Obcaecati deserunt vero in cumque fugiat incidunt fuga atque
+            exercitationem! Nobis a numquam sapiente porro, in minus praesentium vero dolore corporis? Amet mollitia
+            labore id rem esse laborum saepe repellat, eligendi delectus. Fugiat, possimus in, voluptatem, maiores ipsum
+            labore qui delectus accusantium explicabo accusamus laborum expedita voluptate voluptatum!
+        </div>
+        <button class="button" id="button">
+click me...
+        </button>
+    </div>
+</body>
+<script>
+const colorbox = document.getElementById("colorbox");
+const button = document.getElementById("button");
+
+
+button.addEventListener("click", function(){
+    if(colorbox.style.backgroundColor == "yellow"){
+        colorbox.style.backgroundColor = "blue";
+    }else{
+        colorbox.style.backgroundColor = "yellow";
+
+    }
+})
+</script>
+</html>

@@ -1,0 +1,13 @@
+.colorBox{
+    background-color: blue;
+    font-size: 23px;
+    color: white;
+}
+
+.button{
+    background-color: yellow;
+    padding: 1%;
+    color: wheat;
+    border: 2px solid black;
+    margin: 2px;
+}
